@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/venda.js"></script>
+    <link rel="javascript" href="js/venda.js">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js">
+    <!--<link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js">-->
+    <link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <title>CadastroJScript</title>
+</head>
+<body class="corpo">
+    <header class="header"><!--UMA CLASS-->
+        <a href="||"><img src="./img/ilogo.png"></a>
+        <nav>
+            <ul class="menu"><!--UMA CLASS MENU-->
+                <li><a href="||"></a>">Menu</a></li>
+                <li><a href="Cadastro.html"target="blank">Contatos</a></li>
+                <li><a href="Produtos.html">Produtos</a></li>
+                <li><a href="index.html">Home</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <div class="box">
+    <form method="POST" action="Cadastro.html" onsubmit="return DadosEnviar()">
+        <fieldset>
+            <legend>Informação do Cliente</legend>
+        <table id="tb"> 
+            <tr>
+                <td>Nome:</td>
+                <td><input type="text" name="nome" id="nome"></td>
+            </tr>
+            <tr>
+                <td>Idade:</td>
+                <td><input type="text" name="idade" id="idade"></td>
+            </tr>
+            <tr>
+                <td>Altura:</td>
+                <td><input type="text" name="altura" id="altura"></td>
+            </tr>
+                <tr>
+                    <td>Sexo:</td>
+                    <td>
+                        <select name="sexo" id="sexo">
+                            <option value="F">F</option>
+                            <option value="M">M</option>
+                        </select>
+                        
+                    </td>
+                </tr>
+                        <tr>
+                            <td><input type="submit" value="Enviar"></td> <!--botão enviar-->  
+                        </tr>
+
+            
+            </table>
+            </fieldset>
+    </form>
+</div>
+    <footer>
+        <div class="container">
+            <h3>Outras meios de contatos com a UFC</h3>
+            <p>Aque é um dos locais ideais para mantermos interações diretas, já que boa parte do público passa o tempo logado nessas plataformas</p>
+            <ul class="social"> 
+                <li><a href="https://web.whatsapp.com/" target="blank"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="https://www.facebook.com/regino.diniz" target="blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/reginodiniz1/" target="blank"><i class="fab fa-instagram"></i></a></li>
+                <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-twtter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkdin-square"></i></a></li>-->
+            </ul>
+            <div class="botao-footer">
+                <p>copyght &copy; 2021, Regino <span>Diniz Oliveira</span></p>
+            </div>
+        </div>
+    </footer>
+    
+    <script language="javascript" src="js/venda.js">DadosEnviar( );
+    
+    </script>
+   
+</body>
+</html>
